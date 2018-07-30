@@ -5,4 +5,4 @@
 > A docs for boohee front end team.
 
 [GitHub](https://github.com/BooheeFE/docs/)
-[Docs](#docs)
+[Get Started](#薄荷前端文档)
