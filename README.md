@@ -1,3 +1,6 @@
-# Headline
+<p align="center">
+	<img width="140" src="https://up.boohee.cn/house/u/fe/logo/docs.png" alt="logo">
+</p>
 
-> An awesome project.
+# Docs
+A docs for boohee front end team
