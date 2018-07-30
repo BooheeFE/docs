@@ -16,10 +16,17 @@
       repo: 'https://github.com/BooheeFE/docs',
       loadSidebar: true,
       subMaxLevel: 3,
-      search: 'auto',
+      search: {
+        noData: {
+          '/': '没有相关内容'
+        },
+        placeholder: {
+          '/': '搜索'
+        }
+      },
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
