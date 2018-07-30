@@ -1,2 +1,3 @@
-# docs
-薄荷前端文档
+# Headline
+
+> An awesome project.
