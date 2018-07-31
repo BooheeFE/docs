@@ -4,27 +4,48 @@
 ### 项目
 - 字母小写；
 - 不能有空格；
-- 多个单词采用中划线。eg: vue-cli, create-react-app
+- 多个单词采用中划线。
+```
+vue-cli
+create-react-app
+```
 
 ### 文件夹
 - 参照项目名规则；
-- 有复数结构时，采用复数命名法。eg: images, data-models
+- 有复数结构时，采用复数命名法。
+```
+images
+data-models
+```
 
 ### 文件
 - 参照文件夹名规则；
-- 特殊文件全大写。eg: README, LICENSE, CHANGELOG
+- 特殊文件全大写。
+```
+README
+LICENSE
+CHANGELOG
+```
 
 ### 变量
-- 小驼峰：首字母小写。eg: userInfo
-- boolean 类型的变量使用 is 或 has 开头。eg: `let isReady = false;`
+- 小驼峰：首字母小写；
+- boolean 类型的变量使用 is 或 has 开头。
+```javascript
+let userInfo = 'boohee';
+let isReady = false;
+```
 
 ### 常量
-- 全部大写。eg: `const URL = 'http://www.boohee.com'`
-- 多个单词采用下划线。eg: `const MAX_COUNT = 10`
+- 全部大写；
+- 多个单词采用下划线。
+```javascript
+const URL = 'http://www.boohee.com';
+const MAX_COUNT = 10;
+```
 
 ### 函数
 - 小驼峰；
-- 前缀为动词
+- 前缀为动词。
 
 动词 | 含义 | 返回值
 :--  |:--   | :--
@@ -46,11 +67,9 @@ function getName(name) {
 }
 ```
 
-
 ### 类及成员
-- 类，大驼峰：首字母大写。eg:UserInfo, User
-- 公共属性和方法：同变量名；
-- 私有属性和方法：加下划线（_）前缀；
+- 类，大驼峰：首字母大写；
+- 私有属性和方法：加下划线（_）前缀。
 
 ```javascript
 class UserInfo(name) {
@@ -63,36 +82,46 @@ class UserInfo(name) {
 ```
 
 ### 特殊字符
-Android, iOS
+```
+Android
+iOS
+```
 
 ### 图片
 图片命名建议以以下顺序命名：  
-业务（可选）+ 模块名称（可选）+ 功能类别（必选） + 精度（可选）
+业务（可选）+ 模块名称（可选）+ 功能类别（必选） + 精度（可选） + 版本（可选）
 
-#### 业务
+###### 业务
 - 淘宝：tb-
 - 微信：wx-
 - 京东：jd-
 - ...
 
-#### 模块名称
+###### 模块名称
 - 商品列表：goodsList-
 - 商品信息：goodsInfo-
 - 用户头像：userAvatar-
 
-#### 功能类别
+###### 功能类别
 - 图标：icon-
 - LOGO：logo-
 - 按钮：btn-
 - 背景: bg-
 - ...
 
-#### 图片精度
+###### 图片精度
 - 普请：@1x
 - Retina：@2x | @3x
 - ...
+
+###### 版本
+- 初始版本不需要加
+- 第二版本：1
+- 第二版本：2
+- ...
 ```
 tb-goodsList-btn.png // 淘宝商品列表按钮
-pro-guide-bg.png // 付费版引导背景图
 boohee-logo@1x.png //普通清晰度度logo
+pro-guide-bg.png // 付费版引导背景图
+pro-guide-bg-1.png // 付费版引导背景图
 ```
