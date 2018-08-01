@@ -18,13 +18,13 @@
 
 ```HTML
 <!-- S Modules A -->	
-<div class="modA">
+<div class="mod-a">
     ...
 </div>
 <!-- E Modules A -->
 	
 <!-- S Modules B -->	
-<div class="modB">
+<div class="mod-b">
     ...
 </div>
 <!-- E Modules B -->
@@ -44,18 +44,61 @@
 
 ```HTML
 <!-- S Modules A -->
-<div class="modA">
+<div class="mod-a">
 		
-    <div class="modB">
+    <div class="mod-b">
         ...
     </div>
     <!-- /Modules B -->
     	
-    <div class="modC">
+    <div class="mod-c">
     	...
     </div>
     <!-- /Modules C -->
 		
 </div>
 <!-- E Modules A -->
+```
+
+### CSS
+
+#### 文件注释
+- 在样式文件头部注明页面信息描述、作者、创建日期等信息。
+
+```css
+/**
+ * @desc File Description
+ * @author Author Name
+ * @date 2018-08-01
+ */
+```
+
+#### 模块注释
+- 模块与模块之间相隔两行；
+- 包含模块说明；
+- 在组件化开发方案中，一个文件就是一个模块，这时候模块注释可直接写在文件注释内。
+
+```css
+/**
+ * Module A
+ */
+.mod-a {}
+
+
+/**
+ * Module B
+ */
+.mod-b {}
+```
+
+#### 单行注释
+- 单独占一行，行与行之间相隔一行；
+- 包含单行样式说明。
+
+```css
+/* 输入框 */
+.input-box {}
+
+/* 提交按钮 */
+.submit-btn {}
 ```
