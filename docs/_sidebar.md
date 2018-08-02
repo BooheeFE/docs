@@ -2,3 +2,4 @@
 	* [规范工具](./development-specification/tools.md)
 	* [命名规范](./development-specification/named.md)
 	* [注释规范](./development-specification/annotate.md)
+	* [git工作流](./development-specification/git.md)
