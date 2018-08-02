@@ -54,9 +54,14 @@ git commit -m 'feature: add commit message spcification'
 ```
 
 ### git flow
+步骤：
 - 第一步：根据需求，从远程`master`拉出新的`feature/*`或`bugfix/*`分支；
 - 第二步：每一个功能点完成之后进行`commit`，如果是多人协作，在`push`推到远程仓之前应进行`pull rebase`操作: `git pull origin feature/* --rebase`；
 - 第二步：功能开发完成后将`feature/*`或`bugfix/*`合并进`qa`分支，发布代码到测试环境供测试同学测试；
-- 第三步：`qa`测试完成，再将`feature/*`或`bugfix/*`合并进`staging`分支，发布到预发环境测试。有的公司可能没有预发环境，这一步可以省去，我们一般在跟第三方合作时会用到；
+- 第三步：`qa`测试完成，再将`feature/*`或`bugfix/*`合并进`staging`分支，发布到预发环境测试；
 - 第四步：全部测试通过，将`feature/*`或`bugfix/*`合并进`master`分支，并删除`feature/*`或`bugfix/*`；
 - 第五步：请运维同学发布到正式环境后，再请产品、测试同学进行线上验证，没问题后打`tag`，有问题回到第一步。
+
+提示：
+- 小程序开发，由于有自己的开发、测试机制，并且比较简单，`qa`和`staging`分支环节都可以省去；
+- 有的公司可能没有预发环境，第三步可以省去，我们一般在跟第三方合作时会用到
