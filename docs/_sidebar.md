@@ -3,3 +3,4 @@
 	* [命名规范](./development-specification/named.md)
 	* [注释规范](./development-specification/annotate.md)
 	* [git工作流](./development-specification/git.md)
+	* [版本规范](./development-specification/version.md)
