@@ -10,6 +10,7 @@
 - **bugfix/***  [bug修复分支]
 
 ### commit
+参考[Conventional Commits](https://www.conventionalcommits.org/zh)
 - 格式：`<type>: <subject>`；
 - type：代表某次提交的类型，比如是修复一个bug还是增加一个新的feature；
 - subject：描述主要变更内容，比如新增commit提交规范，英文均为小写字母；
@@ -20,7 +21,7 @@ type类型如下：
 
 type | 说明
 :-- | :--
-feature | 新功能
+feat | 新功能
 fix | 修复bug
 docs | 仅仅修改了文档，比如README, CHANGELOG, CONTRIBUTE等等
 style | 仅仅修改了空格、格式缩进、逗号等等，不改变代码逻辑
