@@ -10,7 +10,7 @@
 - **bugfix/***  [bug修复分支]
 
 ### commit
-参考[Conventional Commits](https://www.conventionalcommits.org/zh)
+参考 [Conventional Commits](https://www.conventionalcommits.org/zh)
 - 格式：`<type>: <subject>`；
 - type：代表某次提交的类型，比如是修复一个bug还是增加一个新的feature；
 - subject：描述主要变更内容，比如新增commit提交规范，英文均为小写字母；
