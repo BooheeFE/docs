@@ -6,8 +6,8 @@
 - **master** [主分支]
 - **staging** [预发分支]
 - **qa**  [测试分支]
-- **feature/***  [功能分支]
-- **bugfix/***  [bug修复分支]
+- **feat/***  [功能分支]
+- **fix/***  [bug修复分支]
 
 ### commit
 参考 [Conventional Commits](https://www.conventionalcommits.org/zh)
@@ -32,7 +32,7 @@ chore | 改变构建流程、或者增加依赖库、工具等
 revert | 回滚到上一个版本
 
 ```shell
-git commit -m 'feature: add commit message spcification'
+git commit -m 'feat: add commit message spcification'
 ```
 
 ### tag
